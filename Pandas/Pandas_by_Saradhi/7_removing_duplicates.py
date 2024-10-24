@@ -16,4 +16,3 @@ print(dataframe.drop_duplicates()) ## just displays without duplicates, but data
 
 print(dataframe.drop_duplicates(inplace=True)) ## removes the duplicate entries from dataframe
 
-print(dataframe.duplicated())

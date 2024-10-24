@@ -10,4 +10,4 @@ dataframe = pandas.DataFrame(resource)
 
 dataframe.dropna(inplace=True) ## removes rows with missing values permanently from dataframe
 
-print(dataframe)
+print(dataframe.info())
