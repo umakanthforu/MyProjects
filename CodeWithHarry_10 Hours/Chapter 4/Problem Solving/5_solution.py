@@ -1,0 +1,4 @@
+dictionary = {
+    "wall" : "Deewar"
+    ""
+}
