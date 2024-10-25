@@ -15,6 +15,8 @@ dataframe = pandas.read_excel("Data Sets\\HR_Employee_Data.xlsx")
 
 # print(dataframe.shape) # to show the number of rows and column
 
+print(dataframe.info()) # to show the columns and dattypes and size of dataframe
+
 # print(dataframe[0:21:1]) # to print rows from index 0 to 20 with 1 difference (start, stop and step arguments)
 
 # print(dataframe[1:21:2]) # to print rows from index 0 to 20 with 2 difference (start, stop and step arguments)
