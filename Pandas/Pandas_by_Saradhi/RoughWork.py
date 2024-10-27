@@ -18,6 +18,3 @@ dataframe = pandas.DataFrame(resource)
 # dataframe.loc[dataframe["Percentage"] <= 49, ["Grade"]]= "Below Average"
 # print(dataframe.sort_values("Percentage", ascending=False))
 
-print(dataframe.fillna("Replaced"))
-
-print(dataframe.dropna())
