@@ -2,9 +2,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/<myname>")
-def dyn_name(myname):
-    return "Hi There, How are you {}. This is the first webpage.".format(myname)
+@app.route("/<username>")
+def index(username):
+    return "My first web page.. on Sunday from {}".format(username)
 
 if __name__ == "__main__":
     app.run()
